@@ -117,7 +117,12 @@ input{
     border-width: 1pt;
     
 }
-
+input:focus{
+    outline: blue;
+    outline-style: solid;
+   outline-width: 1px;
+    box-shadow: 1px 1px 5px;
+}
 
 input:invalid{
     border-color: red;
